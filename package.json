@@ -10,7 +10,7 @@
     "@progress/kendo-drawing": "^1.6.0",
     "@progress/kendo-react-pdf": "^3.9.0",
     "@react-pdf/renderer": "^1.6.8",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "destyle.css": "^1.0.11",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.4",
