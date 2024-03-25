@@ -18,7 +18,7 @@ export default class App extends React.Component {
     pdfExportComponent;
     static async getInitialProps({ query: { productID = 129, action } }) {
         const productRequest = await fetch(
-            `http://hydro.server8.turnkeydigital.dev/wp-json/wp/v2/products/${productID}`
+            `https://hydrosilintl.com/wp-json/wp/v2/products/${productID}`
         )
         const productJSON = await productRequest.json()
         const actionURL = action
