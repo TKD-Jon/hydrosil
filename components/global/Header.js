@@ -12,12 +12,6 @@ function Header({ seo, title, json_ld }) {
                 <Head>
                     <title>{title}</title>
                     <link rel="canonical" href="https://hydrosilintl.com/" />
-                    {seo.map((meta, index) => (
-                        <meta key={meta.name} name={meta.name} content={meta.content} />
-                    ))}
-                    <script type='application/ld+json' className='yoast-schema-graph yoast-schema-graph--main'>
-                        {json_ld}
-                    </script>
                     <link rel="stylesheet" href="https://use.typekit.net/aiw3hgg.css" />
                     {/* <link rel="shortcut icon" href={favicon} /> */}
                     <link rel="shortcut icon" href="https://hydrosilintl.com/wp-content/uploads/2019/12/cropped-favi-1-192x192.png" />
