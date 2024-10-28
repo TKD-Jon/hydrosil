@@ -114,9 +114,6 @@ IndexPage.getInitialProps = async ({ req }) => {
  
   return {
     page: pageJSON,
-    title: pageJSON.yoast_title,
-    json_ld: JSON.stringify(pageJSON.yoast_json_ld),
-    seo: pageJSON.yoast_meta,
     form: formFields,
     products: productsJSON
   }
